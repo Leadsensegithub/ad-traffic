@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `continent` (
+  `Id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `Continent` Varchar(128) NOT NULL,
+  `Impression` BIGINT NOT NULL,
+  `Clicks` BIGINT NOT NULL,
+  `CTR` BIGINT NOT NULL
+);
